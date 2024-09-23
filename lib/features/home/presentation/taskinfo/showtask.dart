@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:getx_task/features/home/controller/taskcontroller.dart';
@@ -54,12 +55,6 @@ class ShowTasksPage extends StatelessWidget {
                   );
                 },
               ),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                taskCtrl.loadMoreTasks();
-              },
-              child: const Text('Load More Tasks'),
             ),
           ],
         ),
